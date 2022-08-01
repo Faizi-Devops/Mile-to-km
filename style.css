@@ -1,0 +1,40 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: linear-gradient(to right, red , yellow);
+}
+.A{
+    text-align: center;
+    color: red;
+}
+.B{
+    border: 1px solid;
+    border-style: dashed;
+    height: 400px;
+    width:40%;
+    margin: 90px auto;
+}
+.C{
+    height: 50px;
+    width: 20%;
+    background-color: blue;
+}
+.D{
+    height: 50px;
+    width: 20%;
+    background-color: blue;
+}
+.E{
+    
+    text-align: center;
+    
+}
+.F{
+    height: 60px;
+    width:17%;
+    background-color: brown;
+    
+}
+.G{
+    text-align: center;
+}

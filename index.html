@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="B">
+        <h1 class="A">Mile to KM</h1>
+        <h4 id="demo"></h4>
+        <div class="E">Mile : <input type="text" class="C" id="mile"> KM : <input type="text" class="D" id="km"></div>
+        <br><br>
+        <div class="G"><button type="button"  class="F" id="submit">Convert</button></div>
+
+    </div>
+
+    
+    <script>
+        newmile=document.getElementById("mile");
+        newkm=document.getElementById("km");
+        newsub= document.getElementById("submit");
+        newsub.addEventListener("click",function(){
+            if(newmile.value==="")
+        {
+            document.getElementById("demo").innerHTML="Please enter a valid number";
+        }
+        else{
+            newkm.value=newmile.value*1.60934;
+        }
+            
+
+        })
+        
+
+
+    </script>
+</body>
+</html>
